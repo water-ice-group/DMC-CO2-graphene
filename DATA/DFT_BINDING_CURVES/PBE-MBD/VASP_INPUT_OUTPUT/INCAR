@@ -1,0 +1,26 @@
+   ALGO=Conjugate
+   KPAR=2
+   NCORE=32
+   PREC   = Accurate
+   EDIFF  = 1E-7
+   ENCUT=1000
+   ISMEAR=0
+   SIGMA=0.01
+
+ Ionic Relaxation
+   ISIF   =   0
+ 
+#vdW
+#IVDW=11 #DFT-D3 
+#IVDW=12 #DFT-D3 (BJ)
+#IVDW=2  #DFT-TS
+# FUNCTIONAL PBE-MBD
+GGA    = PE   ! PBE
+IVDW=202             ! 20(TS), 22(TS-it.H), 202(MBD), 212(MBD-it.H), 101(D2), 12(D3noATM), 4(dDsC)
+LVDWEXPANSION =.TRUE.
+ 
+
+
+LWAVE=.FALSE.
+LCHARGE=.FALSE.
+SYMPREC=1E-7

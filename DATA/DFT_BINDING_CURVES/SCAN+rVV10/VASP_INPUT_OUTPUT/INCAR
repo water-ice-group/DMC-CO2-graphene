@@ -1,0 +1,25 @@
+   ALGO=Conjugate
+   KPAR=2
+   NCORE=32
+   ISMEAR=0
+   SIGMA=0.01
+   
+   PREC   = Accurate
+   EDIFF  = 1E-7
+   ENCUT=1000
+
+ Ionic Relaxation
+   ISIF   =   0
+ 
+
+# FUNCTIONAL SCAN+rVV10
+METAGGA  = SCAN
+LUSE_VDW = .TRUE.
+BPARAM = 15.7
+LASPH =.TRUE.
+
+
+SYMPREC=1E-7
+
+
+NELM=200

@@ -1,0 +1,23 @@
+   NPAR=4
+   ALGO=Conjugate
+   ISMEAR=0
+   SIGMA=0.01 
+   PREC   = Accurate
+   EDIFF  = 1E-7
+   ENCUT=1000
+
+ Ionic Relaxation
+   ISIF   =   0
+ 
+#vdW
+
+GGA = ML    #stands for rPW86
+LUSE_VDW = .TRUE.
+Zab_vdW = -1.8867
+AGGAC = 0.0000
+LASPH = .TRUE.
+
+
+SYMPREC=1E-7
+LWAVE=.FALSE.
+LCHARGE=.FALSE.

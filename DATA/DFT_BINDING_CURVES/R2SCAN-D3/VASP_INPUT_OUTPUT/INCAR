@@ -1,0 +1,27 @@
+   ALGO=Conjugate
+   KPAR=2
+   NCORE=32
+   ISMEAR=0
+   SIGMA=0.01
+   
+   PREC   = Accurate
+   EDIFF  = 1E-7
+   ENCUT=1000
+
+ Ionic Relaxation
+   ISIF   =   0
+ 
+#r2scan
+METAGGA=R2SCAN
+LASPH =.TRUE.
+
+#d3bj for r2scan
+IVDW=12 # d3bj
+
+# parameters from https://pubs.aip.org/aip/jcp/article/154/6/061101/199772/r2SCAN-D4-Dispersion-corrected-meta-generalized table I
+VDW_S8=0.7898 
+VDW_A1=0.4948 
+VDW_A2=5.7308 #/bohr
+
+
+SYMPREC=1E-7

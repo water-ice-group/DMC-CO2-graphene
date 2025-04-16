@@ -1,0 +1,20 @@
+   ALGO=Conjugate
+   NPAR = 4
+   ISMEAR=0
+   SIGMA=0.01
+   PREC   = Accurate
+   EDIFF  = 1E-7
+   ENCUT=1000
+
+ Ionic Relaxation
+   ISIF   =   0
+ 
+#vdW
+GGA      = MK
+LUSE_VDW = .TRUE.
+PARAM1   = 0.1234
+PARAM2   = 0.711357
+Zab_vdW  = -1.8867
+AGGAC    = 0.0000
+LASPH = .TRUE.
+
