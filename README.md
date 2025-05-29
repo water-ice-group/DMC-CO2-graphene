@@ -39,7 +39,7 @@ Jupyter notebook to reproduce the figures included in the Supporting Information
 
 ## 🧪 Citation
 
-If you use this data or code, please cite the corresponding paper:
+If you use this data, please cite the corresponding paper:
 
 > Della Pia F, Kler-Young G, Zen A, Berger F, Alfè D, Michaelides A.  
 > *Interaction strength of carbon dioxide on graphene from periodic quantum diffusion Monte Carlo*
