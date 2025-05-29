@@ -21,8 +21,10 @@ Subdirectories include:
 - `DMC_CASINO_INPUT_OUTPUT` – Input/output files for CASINO DMC calculations
 - `DMC_MPC_vs_EWALD` – Data for comparison between MPC and Ewald DMC estimates
 - `DMC_TIME_STEP_ERROR` – Data for the time step error analysis in DMC
-- `MLFF_BINDING_CURVES` – Binding curves with machine learning potentials (and script to compute them with ASE)
+- `MLFF_BINDING_CURVES` – Binding curves for co2 on graphene with machine learning potentials (and script to compute them with ASE) 
+- `MLFF_WATER_ON_GRAPHENE_BINDING_CURVES` – Binding curves with machine learning potentials for water on graphene
 - `vdwDF2_ADSORPTION_GEOMETRY` – Test on interaction energy computed on vdW-DF2 relaxed geometry
+- `MLFF_SIZE_CONSISTENCY` – Test on SC error with MLFFs
 
 ---
 
