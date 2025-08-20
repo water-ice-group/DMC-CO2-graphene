@@ -4,7 +4,7 @@ This repository contains supplementary data supporting the findings of the publi
 
 **Della Pia F., Kler-Young G., Zen A., Berger F., Alfè D., Michaelides A.**  
 *"Interaction strength of carbon dioxide on graphene from periodic quantum diffusion Monte Carlo"*
-
+J. Chem. Phys. 163, 071101 (2025), https://doi.org/10.1063/5.0283254
 ---
 
 ## 📁 Repository Structure
